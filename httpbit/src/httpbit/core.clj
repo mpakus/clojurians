@@ -17,4 +17,5 @@
     (extractJson
      (getCexCurrency url))))
 
-(defn -main [] (outCurrency "https://cex.io/api/ticker/BTC/USD"))
+(defn -main [] (outCurrency "https://cex.io/api/ticker/BTC/USD")
+               (outCurrency "https://cex.io/api/ticker/LTC/USD"))
